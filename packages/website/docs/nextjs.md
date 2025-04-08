@@ -35,7 +35,7 @@ export default UnoptimizedLink;
 ```
 
 ```tsx title=".ladle/UnoptimizedImage.tsx"
-import React from 'react';
+import React from "react";
 
 interface UnoptimizedImageProps
   extends React.ImgHTMLAttributes<HTMLImageElement> {
@@ -48,10 +48,10 @@ const UnoptimizedImage: React.FC<UnoptimizedImageProps> = ({
 }) => {
   const style: React.CSSProperties = fill
     ? {
-        position: 'absolute',
-        inset: '0',
-        width: '100%',
-        height: '100%',
+        position: "absolute",
+        inset: "0",
+        width: "100%",
+        height: "100%",
       }
     : {};
 
