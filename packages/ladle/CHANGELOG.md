@@ -1,5 +1,11 @@
 # @ladle/react
 
+## 0.4.0
+
+### Minor Changes
+
+- [`ffd975c`](https://github.com/tajo/ladle/commit/ffd975c350d682067fedb5c5fdc7628bd98b6b92) Thanks [@yusufyildirim](https://github.com/yusufyildirim)! - fix: native extension resolution issue and babel incompatibility with Expo
+
 ## 0.3.0
 
 ### Minor Changes
