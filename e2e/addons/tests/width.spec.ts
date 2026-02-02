@@ -41,10 +41,7 @@ test("custom width is used and added to the addon popup, apply stylesheet", asyn
   await page.waitForSelector("#width-custom");
   const iframe = page.frameLocator("iframe");
   const h1 = iframe.locator("h1");
-  const color = await h1.evaluate((element) =>
-    window.getComputedStyle(element).getPropertyValue("color"),
-  );
-  expect(color).toBe("rgb(255, 192, 203)");
+  await expect(h1).toHaveCSS("color", "rgb(255, 192, 203)");
 });
 
 test("allow key as a value for width", async ({ page }) => {
