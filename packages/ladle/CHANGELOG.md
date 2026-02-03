@@ -1,5 +1,15 @@
 # @ladle/react
 
+## 0.5.0
+
+### Minor Changes
+
+- [`912f56a`](https://github.com/tajo/ladle/commit/912f56a8daa5496c3f25cb462ce7866d6574caef) Thanks [@yusufyildirim](https://github.com/yusufyildirim)! - feat: Metro 0.83 and React Native 0.83 compatibility
+
+  - use metro/private/\* paths for internal Metro modules
+  - fix async bundle URL construction for HMR
+  - update React to 19.2.x to match RN 0.83 requirements
+
 ## 0.4.0
 
 ### Minor Changes
