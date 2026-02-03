@@ -75,6 +75,7 @@ const metroProd = async (ladleConfig, configFolder) => {
           output: "static",
           splitChunks: false,
           includeSourceMaps: false,
+          exporting: true,
         };
 
         const bundle = await originalSerializer(
